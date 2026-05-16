@@ -87,7 +87,7 @@ class Graph:
 
     def print_switching_graph(self):
 
-        print("\nSwitching Graph:\n")
+        print("\nSwitching граф:\n")
 
         for edge_id, edge_data in self.switching_graph.items():
             print(f"{edge_id}: {edge_data}")
